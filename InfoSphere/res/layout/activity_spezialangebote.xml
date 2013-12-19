@@ -1,0 +1,145 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+            
+            <ImageView
+	        	android:id="@+id/imageView1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/raum_infosphere" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="InfoSphere-Wettbewerb 2013"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="Für Schülerinnen und Schüler der Oberstufe:\nDie Idee des Wettbewerbs ist es euch einen ersten Einblick in die Planung und Durchführung eines eigenen Softwareprojektes zu geben. Ziel wird es sein eine Android-Applikation mit unterschiedlichen Funktionalitäten zu entwickeln die sowohl optisch als auch inhaltlich nichts mehr dem Zufall überlässt." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="InfoSphere-Wettbewerb 2012"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:layout_marginBottom="5dp"
+                android:text="Für Schülerinnen und Schüler der Klassen 7 bis 10:\nInsgesamt 6 kleine Aufgaben werden über das Lernsystem Moodle veröffentlicht und müssen von euch (direkt online von eurem PC zu Hause aus) bearbeitet werden. Je Aufgabe werdet ihr etwa eine Stunde Zeit benötigen. Für die Bearbeitung stehen pro Aufgabe 2 Tage zur Verfügung." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Fachdidaktik-Workshop"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/borderframe"
+                android:text="Dieser zweitägige Workshop ermöglicht es Lehrkräften, Betreibern außerschulischer Lernorte, Referendarinnen und Referendaren, Lehramtsstudierenden und allen weiteren Interessierten in einen aktiven Austausch zu treten und das InfoSphere - Schülerlabor Informatik kennen zulernen." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Spezielle Angebote der Fachgruppe Informatik (RWTH Aachen)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/borderframe"
+                android:text="Klicken Sie hier, um diese Informationen aufzurufen." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Weitere Angebote für verschiedene Fächer (RWTH Aachen)"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="Klicken Sie hier, um diese Informationen aufzurufen." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Weitere Angebote"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="Klicken Sie hier, um diese Informationen aufzurufen." />
+        </LinearLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="#e3e3e3"
+        android:dividerHeight="0.1dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</android.support.v4.widget.DrawerLayout>

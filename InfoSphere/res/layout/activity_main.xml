@@ -1,0 +1,163 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Verschiedene TextViews zur Darstellung der ersten drei News bzw. Terminen & des Haupttextes inkl. Bild -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="5dp"
+	            android:background="@drawable/borderframe"
+	            android:orientation="vertical" >
+
+	            <LinearLayout
+	                android:id="@+id/linearLayout1"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginBottom="5dp"
+	                android:orientation="vertical" >
+
+	                <TextView
+	                    android:id="@+id/textView_main_1"
+	                    android:layout_width="250dp"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginBottom="5dp"
+	                    android:text="@string/main_text1" />
+
+	                <TextView
+	                    android:id="@+id/textView_main_2"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_marginBottom="5dp"
+	                    android:text="@string/main_text2" />
+	                
+	            </LinearLayout>
+
+	            <ImageView
+	                android:id="@+id/imageViewTest"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignRight="@+id/linearLayout1"
+	                android:layout_alignTop="@+id/linearLayout1"
+	                android:src="@drawable/gluehbirne" />
+	        </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="News"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textViewN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textViewN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textViewN3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Termine"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textViewT1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textViewT2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textViewT3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/borderframe"
+                android:fontFamily="sans-serif-light"
+                android:text="Lädt..." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="Sponsoren"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/borderframe"
+                android:src="@drawable/sponsoren" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigation Drawer -->
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="#e3e3e3"
+        android:dividerHeight="0.1dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</android.support.v4.widget.DrawerLayout>

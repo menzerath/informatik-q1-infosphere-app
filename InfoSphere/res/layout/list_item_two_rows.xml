@@ -1,0 +1,28 @@
+<!-- Layout für die Termin-Liste -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Lädt..."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtViewTitle"
+        android:layout_below="@+id/txtViewTitle"
+        android:fontFamily="sans-serif-light"
+        android:text="Lädt..."
+        android:textSize="12sp" />
+
+</RelativeLayout>

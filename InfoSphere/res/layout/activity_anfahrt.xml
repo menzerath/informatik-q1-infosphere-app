@@ -1,0 +1,112 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <!-- Adresse -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="@string/anfahrt_head1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="@string/anfahrt_content1" />
+
+            <!-- Postadresse -->
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="@string/anfahrt_head2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="@string/anfahrt_content2" />
+
+            <!-- Karte -->
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="@string/anfahrt_head3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <!-- Bus und Bahn -->
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#a5a6a9"
+                android:padding="8dp"
+                android:text="@string/anfahrt_head4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00408f" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderframe"
+                android:text="@string/anfahrt_content4" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigation Drawer -->
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:choiceMode="singleChoice"
+        android:divider="#e3e3e3"
+        android:dividerHeight="0.1dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</android.support.v4.widget.DrawerLayout>

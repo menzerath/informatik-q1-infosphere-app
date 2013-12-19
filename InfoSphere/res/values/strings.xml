@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InfoSphere</string>
+    <string name="drawer_open">Geöffnet</string>
+    <string name="drawer_close">Geschlossen</string>
+    
+    <string-array name="hauptmenu_eintrage">
+        <item>Home</item>
+        <item>News</item>
+        <item>Module</item>
+        <item>Spezialangebote</item>
+        <item>Fotos</item>
+        <item>Kalender</item>
+        <item>Team</item>
+        <item>Anfahrt</item>
+    </string-array>
+    
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_about">Über</string>
+    
+    <string name="about_title">Über</string>
+    <string name="about_text">Entwickler:\nMarvin Menzerath, Niklas Schmitz, Miriam Friedrich, Janick Paulus, Cedric Lonski\n\nImpressum:\nhttp://schuelerlabor.informatik.rwth-aachen.de/impressum</string>
+    <string name="about_close">Schließen</string>
+    
+   	<string name="main_text1">In dieser App findest du jede Menge Infos über das InfoSphere Schülerlabor Informatik der RWTH Aachen.\nWir bieten unterschiedliche Zugänge zu zahlreichen Gebieten der Informatik für Kinder und Jugendliche.\n</string>
+   	<string name="main_text2">Die Angebote sind für Schüler konzipiert und einige können auch ohne spezielle Vorkenntnisse besucht werden, während andere an den Informatikunterricht der Oberstufe anknüpfen.</string>
+    
+   	<string name="anfahrt_head1">Adresse</string>
+   	<string name="anfahrt_content1">InfoSphere - Schülerlabor Informatik der RWTH Aachen:\nHalle F1 (hinter dem Technologiezentrum am Europaplatz)\nKapuzinergasse / Dennewartstr. 27\n52068 Aachen</string>
+   	<string name="anfahrt_head2">Postadresse</string>
+   	<string name="anfahrt_content2">InfoSphere, Nadine Bergner\nRWTH Aachen, LuFG i9\nAhornstr. 55\n52074 Aachen</string>
+   	<string name="anfahrt_head3">Karte</string>
+   	<string name="anfahrt_head4">Bus &amp; Bahn</string>
+   	<string name="anfahrt_content4">Bus: Haltestellen Ludwigforum und Hansemannplatz\nBahn: Aachen Rothe Erde oder Aachen Hauptbahnhof</string>
+   	
+</resources>

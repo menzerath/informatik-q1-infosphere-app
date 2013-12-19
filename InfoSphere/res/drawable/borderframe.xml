@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Rahmen für u.a. News, Termine, etc. -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="0.5dip"
+        android:color="#5C5C5C" />
+
+    <solid 
+        android:color="#ffffff"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"/>
+
+    <padding 
+        android:left="10dip" 
+        android:top="10dip" 
+        android:right="10dip" 
+        android:bottom="10dip" /> 
+</shape>
