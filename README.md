@@ -1,5 +1,6 @@
 # InfoSphere App
-Unser Beitrag (als Gruppe 4) zum InfoSphere-Wettbewerb 2013.
+Unser Beitrag (als Gruppe 4) zum InfoSphere-Wettbewerb 2013. Alle Projektdaten liegen im "InfoSphere"-Ordner und können zusammen mit ActionBarSherlock und der Google Play Services Library verwendet werden.  
+Hinweis: Der API-Key für die Google-Maps Integration wurde entfernt.
 
 ## Zielsetzung
 Ziel war es, eine Android-App zu entwerfen und anschließend mit dem ADT-Bundle umzusetzen, welche die Inhalte der Webseite des [Schülerlabors Informatik "InfoSphere" aus Aachen](http://schuelerlabor.informatik.rwth-aachen.de/) übersichtlich anzeigt und auch erweiterte Funktionen (wie eine Navigation) bietet.
