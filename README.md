@@ -7,7 +7,8 @@ Ziel war es, eine Android-App zu entwerfen und anschließend mit dem ADT-Bundle 
 
 ## Ergebnis
 Mit der abgegebenen App wurden wir in den beiden Kategorien **"Bester Prototyp"** und **"Beste Teamarbeit"** ausgezeichnet. Dabei mussten wir uns gegen eine starke Konkurrenz behaupten.  
-* [Bericht auf der Schul-Homepage](http://www.mgm-monschau.de/go/meldungen-details/432-mgm-quartett-bei-informatik-wettbewerb-der-rwth-aachen-erfolgreich.html)  
+* [Bericht auf der Schul-Homepage](http://www.mgm-monschau.de/go/meldungen-details/432-mgm-quartett-bei-informatik-wettbewerb-der-rwth-aachen-erfolgreich.html)
+* [Bericht auf der ANTalive-Homepage](http://www.antalive.de/index.php?MID=1&NEWS_ID=23)
 * [Bericht auf der InfoSphere-Homepage]() (ausstehend)
 
 ## Bildquellen
